@@ -1,0 +1,2 @@
+[ec2-user@ip-172-31-30-251 ~]$ aws s3 ls s3://custom-s3-policy-ih26
+2026-02-11 15:10:36          5 test.txt

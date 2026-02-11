@@ -1,0 +1,15 @@
+PS C:\Users\tboye\downloads> ssh -i security-lab-key.pem ec2-user@3.87.127.202
+   ,     #_
+   ~\_  ####_        Amazon Linux 2023
+  ~~  \_#####\
+  ~~     \###|
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
+[ec2-user@ip-172-31-30-251 ~]$ aws s3 ls s3://custom-s3-policy-ih26
+[ec2-user@ip-172-31-30-251 ~]$ echo "test" > test.txt
+[ec2-user@ip-172-31-30-251 ~]$ aws s3 cp test.txt s3://custom-s3-policy-ih26/
+upload: ./test.txt to s3://custom-s3-policy-ih26/test.txt

@@ -37,8 +37,8 @@ Create and assign an IAM role that allows your EC2 instance to:
     "Effect": "Allow",
     "Action": ["s3:GetObject", "s3:PutObject", "s3:ListBucket"],
     "Resource": [
-      "arn:aws:s3:::YOUR-BUCKET-NAME/*",
-      "arn:aws:s3:::YOUR-BUCKET-NAME"
+      "arn:aws:s3:::custom-s3-policy-ih26/*",
+      "arn:aws:s3:::custom-s3-policy-ih26"
     ]
   }]
 }
